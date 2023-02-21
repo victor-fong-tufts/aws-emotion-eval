@@ -1,0 +1,139 @@
+{"Labels": [
+        {"Name": "Computer", "Confidence": 99.99347686767578, "Instances": [], "Parents": [
+                {"Name": "Electronics"
+                }
+            ]
+        },
+        {"Name": "Electronics", "Confidence": 99.99347686767578, "Instances": [], "Parents": []
+        },
+        {"Name": "Tablet Computer", "Confidence": 99.82182312011719, "Instances": [
+                {"BoundingBox": {"Width": 0.25939813256263733, "Height": 0.351172536611557, "Left": 0.30534276366233826, "Top": 0.4555279612541199
+                    }, "Confidence": 99.82182312011719
+                }
+            ], "Parents": [
+                {"Name": "Computer"
+                },
+                {"Name": "Electronics"
+                }
+            ]
+        },
+        {"Name": "Person", "Confidence": 98.6093521118164, "Instances": [
+                {"BoundingBox": {"Width": 0.48530203104019165, "Height": 0.8630586266517639, "Left": 0.49014994502067566, "Top": 0.13686977326869965
+                    }, "Confidence": 98.6093521118164
+                },
+                {"BoundingBox": {"Width": 0.38500580191612244, "Height": 0.9976602792739868, "Left": 0.30145567655563354, "Top": 4.447936953511089e-05
+                    }, "Confidence": 98.60612487792969
+                }
+            ], "Parents": []
+        },
+        {"Name": "Woman", "Confidence": 98.6093521118164, "Instances": [
+                {"BoundingBox": {"Width": 0.48530203104019165, "Height": 0.8630586266517639, "Left": 0.49014994502067566, "Top": 0.13686977326869965
+                    }, "Confidence": 98.6093521118164
+                }
+            ], "Parents": [
+                {"Name": "Adult"
+                },
+                {"Name": "Female"
+                },
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Adult", "Confidence": 98.6093521118164, "Instances": [
+                {"BoundingBox": {"Width": 0.48530203104019165, "Height": 0.8630586266517639, "Left": 0.49014994502067566, "Top": 0.13686977326869965
+                    }, "Confidence": 98.6093521118164
+                },
+                {"BoundingBox": {"Width": 0.38500580191612244, "Height": 0.9976602792739868, "Left": 0.30145567655563354, "Top": 4.447936953511089e-05
+                    }, "Confidence": 98.60612487792969
+                }
+            ], "Parents": [
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Female", "Confidence": 98.6093521118164, "Instances": [
+                {"BoundingBox": {"Width": 0.48530203104019165, "Height": 0.8630586266517639, "Left": 0.49014994502067566, "Top": 0.13686977326869965
+                    }, 
+"Confidence": 98.6093521118164
+                }
+            ], "Parents": [
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Man", "Confidence": 98.60612487792969, "Instances": [
+                {"BoundingBox": {"Width": 0.38500580191612244, "Height": 0.9976602792739868, "Left": 0.30145567655563354, "Top": 4.447936953511089e-05
+                    }, "Confidence": 98.60612487792969
+                }
+            ], "Parents": [
+                {"Name": "Adult"
+                },
+                {"Name": "Male"
+                },
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Male", "Confidence": 98.60612487792969, "Instances": [
+                {"BoundingBox": {"Width": 0.38500580191612244, "Height": 0.9976602792739868, "Left": 0.30145567655563354, "Top": 4.447936953511089e-05
+                    }, "Confidence": 98.60612487792969
+                }
+            ], "Parents": [
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Hardware", "Confidence": 97.86630249023438, "Instances": [], "Parents": [
+                {"Name": "Electronics"
+                }
+            ]
+        },
+        {"Name": "Face", "Confidence": 81.19628143310547, "Instances": [], "Parents": [
+                {"Name": "Head"
+                },
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Head", "Confidence": 81.19628143310547, "Instances": [], "Parents": [
+                {"Name": "Person"
+                }
+            ]
+        },
+        {"Name": "Computer Hardware", "Confidence": 72.93385314941406, "Instances": [], "Parents": [
+                {"Name": "Electronics"
+                },
+                {"Name": "Hardware"
+                }
+            ]
+        },
+        {"Name": "Pc", "Confidence": 57.617855072021484, "Instances": [], "Parents": [
+                {"Name": "Computer"
+                },
+                {"Name": "Electronics"
+                }
+            ]
+        },
+        {"Name": "Laptop", "Confidence": 56.66037368774414, "Instances": [], "Parents": [
+                {"Name": "Computer"
+                },
+                {"Name": "Electronics"
+                },
+                {"Name": "Pc"
+                }
+            ]
+        },
+        {"Name": "Server", "Confidence": 55.53809356689453, "Instances": [], "Parents": [
+                {"Name": "Computer"
+                },
+                {"Name": "Electronics"
+                },
+                {"Name": "Hardware"
+                }
+            ]
+        }
+    ], "LabelModelVersion": "3.0", "ResponseMetadata": {"RequestId": "f1e5a084-1293-4664-ba8d-36e6590fdc35", "HTTPStatusCode": 200, "HTTPHeaders": {"x-amzn-requestid": "f1e5a084-1293-4664-ba8d-36e6590fdc35", "content-type": "application/x-amz-json-1.1", "content-length": "4177", "date": "Tue,
+            21 Feb 2023 17: 05: 39 GMT"
+        }, "RetryAttempts": 0
+    }
+}
