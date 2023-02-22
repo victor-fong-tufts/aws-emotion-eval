@@ -2,7 +2,7 @@ import boto3
 from PIL import Image
 import io
 import json
-local='images/woman_sofa_side.jpg'
+local='images/cctv_02.jpg'
 client = boto3.client('rekognition', region_name='us-east-1')
 image = Image.open(local)
 
