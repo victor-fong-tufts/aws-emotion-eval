@@ -1,7 +1,8 @@
 import boto3
 from PIL import Image
 import io
-local='images/surprised_woman_02.jpg'
+import json
+local='images/woman_sofa_side.jpg'
 client = boto3.client('rekognition', region_name='us-east-1')
 image = Image.open(local)
 
@@ -14,4 +15,4 @@ response = client.detect_faces(
     )
 
 
-print(response) 
+print(json.dumps(response))
